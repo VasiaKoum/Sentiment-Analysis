@@ -1,5 +1,6 @@
 # Sentiment-Analysis
-#### Data Mining, Project 1
+#### Data Mining, Project 1:
+ *Preprocessing(clean tweets), create model to predict sentiment-label(positive, negative or neutral) for tweets and model accuracy checking.*
 
 Contributors
 ------------
@@ -25,6 +26,13 @@ pip install vaderSentiment
 
 Implementation
 --------------
+* Cleaning the data
+* Make workclouds and matplots for the data
+* Vectorization
+* TSNE model
+* Classification: KNN , SVM
+* Check the accuracy from label predictions
+
 Processing for tweets from train.tsv and test.tsv:
 Tokenization, StopWord filtering, Stemming, Vectorization with BAG-OF-WORDS & TF-IDF
 
